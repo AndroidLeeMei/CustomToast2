@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:text="@string/phone_input" />
+
+
+<!--剛剛自己手動加入的,
+需要先至GrandleScripts\build.gradle(Module:app)裏加入
+    compile 'com.android.support:design:25.3.1'
+    (版號跟檔案裏的compile 'com.android.support:appcompat-v7:25.3.1' )
+    -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="#ffffff"
+            android:hint="請輸入姓名"
+            android:text="" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:text="@string/height_input" />
+
+    <!--剛剛自己手動加入的-->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="請輸入電話"
+        android:background="#ffffff"
+        android:text="" />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="@string/set_meal_input" />
+
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#ffffff"
+        android:digits="1234"
+        android:text="" />
+
+</LinearLayout>

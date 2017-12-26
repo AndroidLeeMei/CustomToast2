@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CustomToast_Ans</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_input">請輸入姓名</string>
+    <string name="height_input">請輸入電話</string>
+    <string name="set_meal_input">請問選幾號餐\n(1)麥脆雞餐\n(2)麥克大漢堡餐\n(3)勁辣雞腿堡餐\n(4)麥克雞塊餐
+                    </string>
+
+    <string name="number1">1號餐:麥脆雞餐</string>
+    <string name="number2">2號餐:麥克大漢堡餐</string>
+    <string name="number3">3號餐:勁辣雞腿堡餐</string>
+    <string name="number4">4號餐:麥克雞塊餐</string>
+    <string name="wrong">請輸入正確的數字</string>
+</resources>
